@@ -61,6 +61,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000"  # node on port 3000
 ]
 
+CORS_ALLOW_ALL_ORIGINS = True
+
 ROOT_URLCONF = 'restexample.urls'
 
 TEMPLATES = [
